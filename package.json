@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/irwintsay/express-to-do-app#readme",
   "dependencies": {
+    "body-parser": "^1.16.1",
     "ejs": "^2.5.5",
     "express": "^4.14.1",
     "morgan": "^1.8.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "pg-promise": "^5.5.6"
   }
 }
