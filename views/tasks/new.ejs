@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add a new task!</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+  <h1>Add a New To Do Item!</h1>
+  <form action="/tasks" method="POST">
+    <label for="task[subject]">Subject</label>
+    <input type="text" name="task[subject]" placeholder="Enter subject">
+    <label for="task[content]">Content</label>
+    <input type="text" name="task[content]" placeholder="Enter content">
+    <input type="submit">
+  </form>
+</body>
+</html>
