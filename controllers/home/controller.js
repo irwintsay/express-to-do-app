@@ -1,3 +1,5 @@
+// Home Controller
+
 const controller = {};
 
 controller.index = (req, res) => {
