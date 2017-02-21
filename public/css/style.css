@@ -1,12 +1,43 @@
 body {
   font-size: 20px;
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: blanchedalmond;
+  background-color: #708090;
+  color: #FFF;
   text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #FFF;
   margin: 0 50px;
+  font-size: 2rem;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.title {
+  margin-top: 75px;
+  font-size: 3rem;
+}
+
+.poster {
+  display: block;
+  margin: 50px auto;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+
+.task-items {
+  border: 3px solid #696969;
+  width: 25%;
+  height: 250px;
+  margin: 25px 0;
 }

@@ -2,13 +2,19 @@
 <html>
 <head>
   <title>Express MVC To-Do App</title>
+  <link rel="shortcut icon" type="text/css" href="http://rghost.ru/favicon.ico">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-  <h1>Irwin's To-Do List</h1>
-  <% tasks.forEach( (task) => { %>
-    <h3><%= task.subject %></h3>
-    <p><%= task.content %></p>
-  <% }) %>
+  <h1 class="title">Stuff Brady's Gotta Do</h1>
+  <a href="/tasks/new">Create a new task</a>
+  <div class="container">
+    <% tasks.forEach( (task) => { %>
+    <div class="task-items">
+      <h3><%= task.subject %></h3>
+      <p><%= task.content %></p>  
+    </div>
+    <% }) %>
+  </div>
 </body>
 </html>
